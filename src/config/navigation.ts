@@ -1,5 +1,5 @@
 export const navigation = [
-  { name: 'Início', href: '#' },
+  { name: 'Iinício', href: '#' },
   { name: 'Sobre', href: '#' },
   { name: 'Especialidades', href: '#' },
   { name: 'Contato', href: '#' },
