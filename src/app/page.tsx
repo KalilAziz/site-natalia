@@ -1,12 +1,19 @@
-import { CtaSection } from '@/components/cta-section'
+import { Accordions } from '@/components/accordions'
+import { Contact } from '@/components/contact'
+import { Features } from '@/components/features'
+import { HeroHome } from '@/components/hero-home'
+import { Services } from '@/components/services'
 import { Testimonials } from '@/components/testimonials'
-import Image from 'next/image'
 
 const HomePage = () => {
   return (
     <>
+    <HeroHome />
+    <Features />
+    <Services />
     <Testimonials />
-    <CtaSection />
+    <Contact />
+    <Accordions />
     </>
    )
 }
