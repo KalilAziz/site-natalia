@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 export const Features = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id='aboutUs'>
       <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
         <div className="mx-auto max-w-fit text-center text-rose700 space-y-2">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Sobre mim </h2>

@@ -2,7 +2,7 @@ import { services } from '@/config/services'
 
 export const Services = () => {
   return (
-    <div className="bg-blue500 py-16 sm:py-24">
+    <div className="bg-blue500 py-16 sm:py-24" id='specialty'>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-fit text-center text-rose700 space-y-2">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Conheça nossos serviços</h2>

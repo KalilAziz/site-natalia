@@ -17,7 +17,7 @@ export const Header = () => {
         <div className="flex lg:flex-1">
           <Link href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Image className="h-16 w-auto" src="/logo.png" alt="" width={64} height={64} />
+            <Image className="h-10 w-auto" src="/logo.png" alt="" quality={100} width={400} height={40} />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -32,13 +32,13 @@ export const Header = () => {
         </div>
         <div className="hidden lg:flex lg:gap-x-9 ">
           {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-slate-100 hover:text-rose700 hover:bg-blue300/60 transition-all duration-300 px-2 py-1 rounded-md">
+            <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-slate-100 hover:text-rose700 hover:bg-blue300/60 transition-all duration-300 px-2 py-1 rounded-md scroll-smooth">
               {item.name}
             </Link>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="#" className="text-sm font-semibold leading-6 text-gray-900 bg-rose700 px-2 py-1 rounded-md ">
+          <Link href="https://api.whatsapp.com/send?phone=5562981713608" className="text-sm font-semibold leading-6 text-gray-900 bg-rose700 px-2 py-1 rounded-md ">
             Agendar consulta 
           </Link>
         </div>

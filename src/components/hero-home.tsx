@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const HeroHome = () => {
   return(
-    <div className="relative isolate bg-blue500">
+    <div className="relative isolate bg-blue500" id='home'>
     <div className="overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-4 lg:py-6">
         <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-start">
@@ -15,7 +15,7 @@ export const HeroHome = () => {
             Lorem ipsum dolor sit amet consectetur. Tristique proin hendrerit at dictumst eget nunc sed nisi sollicitudin. 
             </p>
             <div className="mt-10 flex items-center gap-x-6">
-            <Link href="#" className="text-sm font-semibold leading-6 text-gray-900 bg-rose700 px-2 py-1 rounded-md ">
+            <Link href="https://api.whatsapp.com/send?phone=5562981713608"className="text-sm font-semibold leading-6 text-gray-900 bg-rose700 px-2 py-1 rounded-md ">
               Agendar consulta 
             </Link>
             </div>

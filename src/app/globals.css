@@ -36,3 +36,9 @@
     --radius: 0.5rem;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+  transition: scroll-behavior 500ms ease-in-out;
+}
+
